@@ -15,7 +15,7 @@ export default function AppWeather()
                 {loading ? <Loading /> :
                     result?.name ? <Result /> :
                         noResults ? <p>{noResults}</p> :
-                            <p>The weather will come here</p>
+                            <p></p>
                 }
             </main>
         </>
