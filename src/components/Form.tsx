@@ -19,6 +19,7 @@ export default function Form()
             return;
         }
 
+        setAlert('')
         consultWeather(search);
     }
 
