@@ -70,7 +70,7 @@ const WeatherProvider: any = ({ children }: any) =>
             }}>
             <header>
                 <h1>Weather searcher</h1>
-                <img src="/src/assets/icon.png" alt="App icon" width={50} />
+                <img src="icon.png" alt="App icon" width={50} />
             </header>
             {children}
         </WeatherContext.Provider>
